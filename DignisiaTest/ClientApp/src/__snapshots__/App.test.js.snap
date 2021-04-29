@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<form
+  className=""
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="segmentSelect"
+    >
+      Segment
+    </label>
+    <select
+      className="form-control"
+      id="segmentSelect"
+      name="segmentSelect"
+      onChange={[Function]}
+      value={1}
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className=""
+      htmlFor="caseAgeRange"
+    >
+      Case Age
+    </label>
+    <span
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      From 
+      2020-01-01
+       to 
+      2020-01-01
+    </span>
+    <input
+      className="form-control"
+      id="caseAgeRange"
+      max={13}
+      min="0"
+      name="caseAgeRange"
+      onChange={[Function]}
+      step="1"
+      type="range"
+      value={0}
+    />
+    <span>
+      2020-01-01
+    </span>
+    <span
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      2021-02-01
+    </span>
+  </div>
+</form>
+`;
